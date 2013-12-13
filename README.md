@@ -11,7 +11,7 @@
 
 你可以在Twitter[@SamyPesse](https://twitter.com/SamyPesse)上关注我, 在[Flattr](https://flattr.com/profile/samy.pesse)或[Gittip](https://www.gittip.com/SamyPesse/)上支持我.
 
-### 我们在制作什么操作系统?
+### 我们在制作怎样的操作系统?
 
 目标是使用C++构建一个基于UNIX, 非常简单的操作系统, 而不只是一个"概念验证". 这个操作系统可以启动, 运行一个userland shell, 可以扩展.
 
