@@ -6,13 +6,13 @@
 ### 安装Vagrant
 > Vagrant是一个自由开源软件, 用于创建和配置虚拟开发环境. 可以用来"包装"VirtualBox.
 
-Vagrant可以帮助你在所使用的任何操作系统下, 创建一个干净的虚拟开发环境. 第一步是从http://www.vagrantup.com/下载安装Vagrant.
+Vagrant可以帮助你在所使用的任何操作系统下, 创建一个干净的虚拟开发环境. 第一步是从[http://www.vagrantup.com/](http://www.vagrantup.com/)下载安装Vagrant.
 
 ### 安装Virtualbox
 
 > Oracle VM Virtualbox是用于x86和AMD64/Intel64计算机的虚拟化软件包
 
-Vagrant需要Virtualbox来运行. 从https://www.virtualbox.org/wiki/Downloads下载并安装.
+Vagrant需要Virtualbox来运行. 从[https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)下载并安装.
 
 ### 运行并测试开发环境
 
