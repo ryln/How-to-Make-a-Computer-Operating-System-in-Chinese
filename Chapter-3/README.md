@@ -133,6 +133,7 @@ fdisk ./c.img
 ```fdisk -l -u c.img``` 得到 63 * 512 = 32256.
 
 (译注: 以下命令请使用sudo执行)
+
 ```
 losetup -o 32256 /dev/loop1 ./c.img
 ```

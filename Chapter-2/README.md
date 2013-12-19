@@ -8,6 +8,8 @@
 
 Vagrant可以帮助你在所使用的任何操作系统下, 创建一个干净的虚拟开发环境. 第一步是从[http://www.vagrantup.com/](http://www.vagrantup.com/)下载安装Vagrant.
 
+(译注: 国内用户可能需要翻墙下载)
+
 ### 安装Virtualbox
 
 > Oracle VM Virtualbox是用于x86和AMD64/Intel64计算机的虚拟化软件包
@@ -60,6 +62,6 @@ make run
 
 qemu的文档可以看这里[QEMU Emulator Documentation](http://wiki.qemu.org/download/qemu-doc.html).
 
-可以使用<Ctrl-a x>来退出模拟器
+可以使用\<Ctrl-a x\>来退出模拟器
 
 <table><tr><td><a href="../Chapter-1/README.md" >&larr; 上一篇</a></td><td><a href="../Chapter-3/README.md" >下一篇 &rarr;</a></td></tr></table>
