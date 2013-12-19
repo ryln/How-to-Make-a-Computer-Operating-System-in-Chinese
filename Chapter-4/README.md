@@ -1,4 +1,4 @@
-## Chapter 4: Backbone of the OS and C++ runtime
+## 第4章: OS的中枢与C++运行环境
 
 
 #### C++ kernel run-time

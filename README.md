@@ -27,7 +27,7 @@
 
 #### [第3章: 使用GRUB进行初次启动](Chapter-3/README.md)
 
-#### Chapter 4: Backbone of the OS and C++ runtime
+#### [第4章: OS的中枢与C++运行环境](Chapter-4/README.md)
 
 #### Chapter 5: Base classes for managing x86 architecture
 
