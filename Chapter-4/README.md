@@ -16,22 +16,18 @@
 内核代码不能使用标准程序库. 因此需要添加一些基本函数来管理内存和string.
 
 
+```cpp
+typedef unsigned char 	u8;
+typedef unsigned short 	u16;
+typedef unsigned int 	u32;
+typedef unsigned long long 	u64;
+
+typedef signed char 	s8;
+typedef signed short 	s16;
+typedef signed int 		s32;
+typedef signed long long	s64;
 ```
-cpp
 
-void 	itoa(char *buf, unsigned long int n, int base);
-
-void *	memset(char *dst,char src, int n);
-void *	memcpy(char *dst, char *src, int n);
-
-int 	strlen(char *s);
-int 	strcmp(const char *dst, char *src);
-int 	strcpy(char *dst,const char *src);
-void 	strcat(void *dest,const void *src);
-char *	strncpy(char *destString, const char *sourceString,int maxLength);
-int 	strncmp( const char* s1, const char* s2, int c );
-
-```
 
 这些函数被定义在[string.cc](https://github.com/SamyPesse/How-to-Make-a-Computer-Operating-System/blob/master/src/kernel/runtime/string.cc), [memory.cc](https://github.com/SamyPesse/How-to-Make-a-Computer-Operating-System/blob/master/src/kernel/runtime/memory.cc), [itoa.cc](https://github.com/SamyPesse/How-to-Make-a-Computer-Operating-System/blob/master/src/kernel/runtime/itoa.cc)
 
@@ -40,8 +36,7 @@ int 	strncmp( const char* s1, const char* s2, int c );
 下面需要定义一些变量类型. 主要用到的是unsigned类型(使用所有比特存储整数. 而signed类型的有一位用于标记正负):
 
 
-```
-cpp
+```cpp
 
 typedef unsigned char 	u8;
 typedef unsigned short 	u16;
