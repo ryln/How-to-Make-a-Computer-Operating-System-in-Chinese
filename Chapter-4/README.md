@@ -17,15 +17,17 @@
 
 
 ```cpp
-typedef unsigned char 	u8;
-typedef unsigned short 	u16;
-typedef unsigned int 	u32;
-typedef unsigned long long 	u64;
+void 	itoa(char *buf, unsigned long int n, int base);
 
-typedef signed char 	s8;
-typedef signed short 	s16;
-typedef signed int 		s32;
-typedef signed long long	s64;
+void *	memset(char *dst,char src, int n);
+void *	memcpy(char *dst, char *src, int n);
+
+int 	strlen(char *s);
+int 	strcmp(const char *dst, char *src);
+int 	strcpy(char *dst,const char *src);
+void 	strcat(void *dest,const void *src);
+char *	strncpy(char *destString, const char *sourceString,int maxLength);
+int 	strncmp( const char* s1, const char* s2, int c );
 ```
 
 
